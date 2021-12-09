@@ -7,16 +7,6 @@ import (
 	"strings"
 )
 
-const (
-	A = 1 << iota
-	B
-	C
-	D
-	E
-	F
-	G
-)
-
 func main() {
 	in, err := ioutil.ReadFile("../input.txt")
 	if err != nil {
